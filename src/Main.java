@@ -106,7 +106,7 @@ public class Main
 
         for (int i = 0; i < firstMatrix.length; i++) // Loop through the number of rows
             for (int j = 0; j < firstMatrix[0].length; j++) // Loop through the number of columns
-                for (int k = 0; k < firstMatrix[0].length ; k++) // Loop through the number of columns
+                for (int k = 0; k < firstMatrix[0].length ; k++) // Loop through the number of rows
                     finalMatrix[i][j] += firstMatrix[i][k] * secondMatrix[k][j]; //Perform the multiplication
 
         return finalMatrix;
